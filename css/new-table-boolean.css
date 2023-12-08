@@ -1,0 +1,34 @@
+.table-boolean {
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 0.5rem;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.table-boolean th {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.table-boolean thead {
+    background-color: #003050;
+    color: #fff;
+}
+
+.table-boolean td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+.table-boolean tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-boolean tbody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
